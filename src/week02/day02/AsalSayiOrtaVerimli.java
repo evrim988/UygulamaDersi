@@ -38,6 +38,6 @@ public class AsalSayiOrtaVerimli {
         }
         long endTime = System.currentTimeMillis(); // 2 07 2024 00:00:00.000
         long estimatedTime = endTime - startTime;
-        System.out.println("geçen süre: " + estimatedTime);
+        System.out.println("sure: " + estimatedTime);
     }
 }

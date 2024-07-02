@@ -38,6 +38,6 @@ public class AsalSayiVerimsiz {
         }
         long endTime = System.currentTimeMillis(); // 2 07 2024 00:00:00.000
         long estimatedTime = endTime - startTime;
-        System.out.println("gecen sure: " + estimatedTime);
+        System.out.println("sure: " + estimatedTime);
     }
 }
