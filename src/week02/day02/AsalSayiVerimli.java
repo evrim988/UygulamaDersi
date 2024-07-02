@@ -1,11 +1,11 @@
-package week02.day02Homework;
+package week02.day02;
 
 import java.util.Scanner;
 
-public class AsalSayiOrtaVerimli {
+public class AsalSayiVerimli {
     public static void main(String[] args) {
 
-        long startTime = System.currentTimeMillis(); // 2 07 2024 00:00:00.000
+        long startTime = System.currentTimeMillis(); // 2 Temmuz 2024 00:00:00.000
         int timer = 0;
         int dongu = 0;
         Scanner scanner = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class AsalSayiOrtaVerimli {
         }
         else {
 
-            for (int i = 3; i < number / 2; i+=2) {
+            for (int i = 3; i < Math.sqrt(number); i+=2) {
                 dongu++;
                 if(number % i == 0) {
                     timer++;
