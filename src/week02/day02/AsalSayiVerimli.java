@@ -7,7 +7,6 @@ public class AsalSayiVerimli {
 
         long startTime = System.currentTimeMillis(); // 2 Temmuz 2024 00:00:00.000
         int timer = 0;
-        int dongu = 0;
         Scanner scanner = new Scanner(System.in);
         System.out.print("bir sayi giriniz: ");
         int number = scanner.nextInt();
@@ -21,14 +20,12 @@ public class AsalSayiVerimli {
         }
         else {
 
-            for (int i = 3; i < Math.sqrt(number); i+=2) {
-                dongu++;
+            for (int i = 3; i * i < number; i+=2) {
                 if(number % i == 0) {
                     timer++;
                     break;
                 }
             }
-            System.out.println(dongu);
             if(timer == 0 ){
                 System.out.println("girilen " + number + " sayisi asal sayidir.");
             }
