@@ -1,8 +1,8 @@
-package week02.day02;
+package week02.day02Homework;
 
 import java.util.Scanner;
 
-public class AsalSayiVerimsiz {
+public class AsalSayiVerimli {
     public static void main(String[] args) {
 
         long startTime = System.currentTimeMillis(); // 2 Temmuz 2024 00:00:00.000
@@ -20,7 +20,7 @@ public class AsalSayiVerimsiz {
         }
         else {
 
-            for (int i = 3; i < number; i+=2) {
+            for (int i = 3; i * i < number; i+=2) {
                 if(number % i == 0) {
                     timer++;
                     break;
