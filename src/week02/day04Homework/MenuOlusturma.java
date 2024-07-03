@@ -23,7 +23,7 @@ public class MenuOlusturma {
                 System.out.print("\n0 -> Çıkış Yap \n"
                         + "1 -> Merhaba Dünya Yazdır\n"
                         + "2 -> Faktoriyel Hesapla\n"
-                        + "3 - Asal sayı kontrolü yap.\n");
+                        + "3 -> Asal sayı kontrolü yap.\n");
                 System.out.print("Menuden bir secim yapin: ");
                 int menuChoose = scanner.nextInt();
 
@@ -76,7 +76,7 @@ public class MenuOlusturma {
                 System.out.print("\n0 -> Exit \n"
                         + "1 -> Hello World Print!\n"
                         + "2 -> Calculate factorial\n"
-                        + "3 - Check prime number.\n");
+                        + "3 -> Check prime number.\n");
                 System.out.print("Make a choice from the menu: ");
                 int secondMenuChoose = scanner.nextInt();
 
